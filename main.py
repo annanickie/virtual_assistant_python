@@ -8,7 +8,7 @@ import pyjokes
 # Initialize speech recognition, text-to-speech, and News API
 recognizer = sr.Recognizer()  # Initialize the speech recognizer
 engine = pyttsx3.init()  # Initialize the text-to-speech engine
-newsapi_url = "https://newsapi.org/v2/top-headlines?country=us&apiKey=2fee8a1ae8e0479892ea445772e64547"  # News API URL
+newsapi_url = "<news api URL>"  # News API URL
 
 def speak(text):
     """Function to speak the given text"""
