@@ -4,7 +4,7 @@ import pyttsx3
 import musicLibrary
 import requests
 import pyjokes
-
+# hello
 # Initialize speech recognition, text-to-speech, and News API
 recognizer = sr.Recognizer()  # Initialize the speech recognizer
 engine = pyttsx3.init()  # Initialize the text-to-speech engine
